@@ -7,8 +7,8 @@ This product is being built
 ## Running Locally
 
 ```bash
-$ git clone https://github.com/Fer1ado/React-Entrega-Clase-4.git
-$ cd CUARTA_ENTREGA
+$ git clone https://github.com/Fer1ado/Zima_Ceramica_React
+$ cd ZIMA_CERAMICA
 $ npm install
 $ npm start
 ```
