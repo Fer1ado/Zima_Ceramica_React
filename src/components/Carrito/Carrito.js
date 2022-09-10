@@ -1,12 +1,12 @@
 import "./carrito.css"
 import {Link} from "react-router-dom"
-import { useContext, useEfect} from "react"
+import { useContext} from "react"
 import  Contexto from '../../ContextoCarrito/ContextoCarrito'
 
 
 const Carrito = () => {
       
-    const {carro, totalCarrito, agregarItem, agregarDecarrito, quitarDecarrito, vaciarCarro, quitarItem } = useContext(Contexto)
+    const {carro, totalCarrito, agregarDecarrito, quitarDecarrito, vaciarCarro, quitarItem } = useContext(Contexto)
 
     return(
         <>
@@ -20,7 +20,7 @@ const Carrito = () => {
                     {carro.map(prod => 
                                 <div className="itemCarrito" key={prod.id}>
                                     <h4 className="tituloItem">{prod.name}</h4>
-                                    <img className="imagenCarrito" src={prod.imagen} ></img>
+                                    <img className="imagenCarrito" src={prod.imagen} alt="" ></img>
                                     <h5 className="subtotal">Subtotal: $ {prod.precio * prod.cantidad} </h5>
                                     <h5> {prod.cantidad} Un</h5>
                                         <div className="agregarRestar">

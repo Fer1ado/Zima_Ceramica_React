@@ -1,4 +1,4 @@
-import {useContext, useState, useEffect} from "react"
+import {useContext, useState} from "react"
 import Contexto from "../../ContextoCarrito/ContextoCarrito"
 import "./GenerarOrden.css"
 import { BaDat } from "../../Services/firebase/firebaseindex"
