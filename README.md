@@ -25,7 +25,11 @@ $ npm start
 
 - Route/category/:IdProducto ----> Opens the detailed view of the item selected, using the ItemDetail Module to display the info.
 
+- Route/carrito/generarOrden ---> Gets you to the cart and the Chekout form of the site.
+
+
 ## Built Using
 
 - [Create-React-App](https://create-react-app.dev/)
 - [Materialize](https://materializecss.com/)
+- [Vercel](https://vercel.com/)
